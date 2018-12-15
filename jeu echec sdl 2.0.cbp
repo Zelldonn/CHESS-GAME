@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="jeu echec sdl 2.0" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin/Debug/jeu echec sdl 2" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Debug/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Option use_console_runner="0" />
+				<Compiler>
+					<Add option="-g" />
+				</Compiler>
+			</Target>
+			<Target title="Release">
+				<Option output="bin/Release/jeu echec sdl 2" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Release/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+			<Add directory="include" />
+		</Compiler>
+		<Linker>
+			<Add library="libmingw32.a" />
+			<Add library="libSDL2main.a" />
+			<Add library="libSDL2.a" />
+			<Add library="libSDL2.dll.a" />
+			<Add library="lib/libSDL2_image.dll.a" />
+			<Add library="lib/libSDL2_ttf.dll.a" />
+			<Add library="lib/libSDL2_mixer.dll.a" />
+			<Add library="lib/libSDL2_net.a" />
+			<Add library="lib/libSDL2_net.dll.a" />
+			<Add directory="lib" />
+		</Linker>
+		<Unit filename="src/IA.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="src/deplacement.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="src/deplacement.h" />
+		<Unit filename="src/disp.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="src/disp.h" />
+		<Unit filename="src/game.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="src/header.h" />
+		<Unit filename="src/ia.h" />
+		<Unit filename="src/init.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="src/liste.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="src/load_content.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="src/main.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="src/regle.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="src/regle.h" />
+		<Unit filename="src/reseau.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="src/save.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="src/select.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Extensions>
+			<code_completion />
+			<envvars />
+			<debugger />
+			<lib_finder disable_auto="1" />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>

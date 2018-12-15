@@ -1,0 +1,895 @@
+# depslib dependency file v1.0
+1544714080 source:c:\users\pierre\google drive (zeldonlast@gmail.com)\i2\exo i2\echec sdl 2.0 newa\src\deplacement.c
+	"header.h"
+	"regle.h"
+	"deplacement.h"
+
+1544724075 c:\users\pierre\google drive (zeldonlast@gmail.com)\i2\exo i2\echec sdl 2.0 newa\src\header.h
+	<SDL2/SDL.h>
+	<SDL2/SDL_ttf.h>
+	<SDL2/SDL_mixer.h>
+	<SDL2/SDL_image.h>
+	<math.h>
+	<SDL2/SDL_net.h>
+
+1519922211 c:\users\pierre\google drive (zeldonlast@gmail.com)\i2\exo i2\echec sdl 2.0 newa\include\sdl2\sdl.h
+	"SDL_main.h"
+	"SDL_stdinc.h"
+	"SDL_assert.h"
+	"SDL_atomic.h"
+	"SDL_audio.h"
+	"SDL_clipboard.h"
+	"SDL_cpuinfo.h"
+	"SDL_endian.h"
+	"SDL_error.h"
+	"SDL_events.h"
+	"SDL_filesystem.h"
+	"SDL_gamecontroller.h"
+	"SDL_haptic.h"
+	"SDL_hints.h"
+	"SDL_joystick.h"
+	"SDL_loadso.h"
+	"SDL_log.h"
+	"SDL_messagebox.h"
+	"SDL_mutex.h"
+	"SDL_power.h"
+	"SDL_render.h"
+	"SDL_rwops.h"
+	"SDL_shape.h"
+	"SDL_system.h"
+	"SDL_thread.h"
+	"SDL_timer.h"
+	"SDL_version.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1519922211 c:\users\pierre\google drive (zeldonlast@gmail.com)\i2\exo i2\echec sdl 2.0 newa\include\sdl2\sdl_main.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1519922211 c:\users\pierre\google drive (zeldonlast@gmail.com)\i2\exo i2\echec sdl 2.0 newa\include\sdl2\sdl_stdinc.h
+	"SDL_config.h"
+	<sys/types.h>
+	<stdio.h>
+	<stdlib.h>
+	<stddef.h>
+	<stdarg.h>
+	<stdlib.h>
+	<malloc.h>
+	<stddef.h>
+	<stdarg.h>
+	<memory.h>
+	<string.h>
+	<strings.h>
+	<wchar.h>
+	<inttypes.h>
+	<stdint.h>
+	<ctype.h>
+	<math.h>
+	<float.h>
+	<sal.h>
+	"begin_code.h"
+	<alloca.h>
+	<malloc.h>
+	<malloc.h>
+	<malloc.h>
+	<stdlib.h>
+	"close_code.h"
+
+1519922211 c:\users\pierre\google drive (zeldonlast@gmail.com)\i2\exo i2\echec sdl 2.0 newa\include\sdl2\sdl_config.h
+	"SDL_platform.h"
+
+1519922211 c:\users\pierre\google drive (zeldonlast@gmail.com)\i2\exo i2\echec sdl 2.0 newa\include\sdl2\sdl_platform.h
+	"AvailabilityMacros.h"
+	"TargetConditionals.h"
+	<winapifamily.h>
+	"begin_code.h"
+	"close_code.h"
+
+1519922211 c:\users\pierre\google drive (zeldonlast@gmail.com)\i2\exo i2\echec sdl 2.0 newa\include\sdl2\begin_code.h
+
+1519922211 c:\users\pierre\google drive (zeldonlast@gmail.com)\i2\exo i2\echec sdl 2.0 newa\include\sdl2\close_code.h
+
+1519922211 c:\users\pierre\google drive (zeldonlast@gmail.com)\i2\exo i2\echec sdl 2.0 newa\include\sdl2\sdl_assert.h
+	"SDL_config.h"
+	"begin_code.h"
+	<signal.h>
+	"close_code.h"
+
+1519922211 c:\users\pierre\google drive (zeldonlast@gmail.com)\i2\exo i2\echec sdl 2.0 newa\include\sdl2\sdl_atomic.h
+	"SDL_stdinc.h"
+	"SDL_platform.h"
+	"begin_code.h"
+	<mbarrier.h>
+	"close_code.h"
+
+1519922211 c:\users\pierre\google drive (zeldonlast@gmail.com)\i2\exo i2\echec sdl 2.0 newa\include\sdl2\sdl_audio.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_endian.h"
+	"SDL_mutex.h"
+	"SDL_thread.h"
+	"SDL_rwops.h"
+	"begin_code.h"
+	"close_code.h"
+
+1519922211 c:\users\pierre\google drive (zeldonlast@gmail.com)\i2\exo i2\echec sdl 2.0 newa\include\sdl2\sdl_error.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1519922211 c:\users\pierre\google drive (zeldonlast@gmail.com)\i2\exo i2\echec sdl 2.0 newa\include\sdl2\sdl_endian.h
+	"SDL_stdinc.h"
+	<endian.h>
+	"begin_code.h"
+	"close_code.h"
+
+1519922211 c:\users\pierre\google drive (zeldonlast@gmail.com)\i2\exo i2\echec sdl 2.0 newa\include\sdl2\sdl_mutex.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1519922211 c:\users\pierre\google drive (zeldonlast@gmail.com)\i2\exo i2\echec sdl 2.0 newa\include\sdl2\sdl_thread.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_atomic.h"
+	"SDL_mutex.h"
+	"begin_code.h"
+	<process.h>
+	<process.h>
+	<stdlib.h>
+	"close_code.h"
+
+1519922211 c:\users\pierre\google drive (zeldonlast@gmail.com)\i2\exo i2\echec sdl 2.0 newa\include\sdl2\sdl_rwops.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1519922211 c:\users\pierre\google drive (zeldonlast@gmail.com)\i2\exo i2\echec sdl 2.0 newa\include\sdl2\sdl_clipboard.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1519922211 c:\users\pierre\google drive (zeldonlast@gmail.com)\i2\exo i2\echec sdl 2.0 newa\include\sdl2\sdl_cpuinfo.h
+	"SDL_stdinc.h"
+	<intrin.h>
+	<intrin.h>
+	<altivec.h>
+	<mm3dnow.h>
+	<immintrin.h>
+	<mmintrin.h>
+	<xmmintrin.h>
+	<emmintrin.h>
+	<pmmintrin.h>
+	"begin_code.h"
+	"close_code.h"
+
+1519922211 c:\users\pierre\google drive (zeldonlast@gmail.com)\i2\exo i2\echec sdl 2.0 newa\include\sdl2\sdl_events.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_video.h"
+	"SDL_keyboard.h"
+	"SDL_mouse.h"
+	"SDL_joystick.h"
+	"SDL_gamecontroller.h"
+	"SDL_quit.h"
+	"SDL_gesture.h"
+	"SDL_touch.h"
+	"begin_code.h"
+	"close_code.h"
+
+1519922211 c:\users\pierre\google drive (zeldonlast@gmail.com)\i2\exo i2\echec sdl 2.0 newa\include\sdl2\sdl_video.h
+	"SDL_stdinc.h"
+	"SDL_pixels.h"
+	"SDL_rect.h"
+	"SDL_surface.h"
+	"begin_code.h"
+	"close_code.h"
+
+1519922211 c:\users\pierre\google drive (zeldonlast@gmail.com)\i2\exo i2\echec sdl 2.0 newa\include\sdl2\sdl_pixels.h
+	"SDL_stdinc.h"
+	"SDL_endian.h"
+	"begin_code.h"
+	"close_code.h"
+
+1519922211 c:\users\pierre\google drive (zeldonlast@gmail.com)\i2\exo i2\echec sdl 2.0 newa\include\sdl2\sdl_rect.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_pixels.h"
+	"SDL_rwops.h"
+	"begin_code.h"
+	"close_code.h"
+
+1519922211 c:\users\pierre\google drive (zeldonlast@gmail.com)\i2\exo i2\echec sdl 2.0 newa\include\sdl2\sdl_surface.h
+	"SDL_stdinc.h"
+	"SDL_pixels.h"
+	"SDL_rect.h"
+	"SDL_blendmode.h"
+	"SDL_rwops.h"
+	"begin_code.h"
+	"close_code.h"
+
+1519922211 c:\users\pierre\google drive (zeldonlast@gmail.com)\i2\exo i2\echec sdl 2.0 newa\include\sdl2\sdl_blendmode.h
+	"begin_code.h"
+	"close_code.h"
+
+1519922211 c:\users\pierre\google drive (zeldonlast@gmail.com)\i2\exo i2\echec sdl 2.0 newa\include\sdl2\sdl_keyboard.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_keycode.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1519922211 c:\users\pierre\google drive (zeldonlast@gmail.com)\i2\exo i2\echec sdl 2.0 newa\include\sdl2\sdl_keycode.h
+	"SDL_stdinc.h"
+	"SDL_scancode.h"
+
+1519922211 c:\users\pierre\google drive (zeldonlast@gmail.com)\i2\exo i2\echec sdl 2.0 newa\include\sdl2\sdl_scancode.h
+	"SDL_stdinc.h"
+
+1519922211 c:\users\pierre\google drive (zeldonlast@gmail.com)\i2\exo i2\echec sdl 2.0 newa\include\sdl2\sdl_mouse.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1519922211 c:\users\pierre\google drive (zeldonlast@gmail.com)\i2\exo i2\echec sdl 2.0 newa\include\sdl2\sdl_joystick.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1519922211 c:\users\pierre\google drive (zeldonlast@gmail.com)\i2\exo i2\echec sdl 2.0 newa\include\sdl2\sdl_gamecontroller.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_rwops.h"
+	"SDL_joystick.h"
+	"begin_code.h"
+	"close_code.h"
+
+1519922211 c:\users\pierre\google drive (zeldonlast@gmail.com)\i2\exo i2\echec sdl 2.0 newa\include\sdl2\sdl_quit.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+
+1519922211 c:\users\pierre\google drive (zeldonlast@gmail.com)\i2\exo i2\echec sdl 2.0 newa\include\sdl2\sdl_gesture.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_video.h"
+	"SDL_touch.h"
+	"begin_code.h"
+	"close_code.h"
+
+1519922211 c:\users\pierre\google drive (zeldonlast@gmail.com)\i2\exo i2\echec sdl 2.0 newa\include\sdl2\sdl_touch.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1519922211 c:\users\pierre\google drive (zeldonlast@gmail.com)\i2\exo i2\echec sdl 2.0 newa\include\sdl2\sdl_filesystem.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1519922211 c:\users\pierre\google drive (zeldonlast@gmail.com)\i2\exo i2\echec sdl 2.0 newa\include\sdl2\sdl_haptic.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_joystick.h"
+	"begin_code.h"
+	"close_code.h"
+
+1519922211 c:\users\pierre\google drive (zeldonlast@gmail.com)\i2\exo i2\echec sdl 2.0 newa\include\sdl2\sdl_hints.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1519922211 c:\users\pierre\google drive (zeldonlast@gmail.com)\i2\exo i2\echec sdl 2.0 newa\include\sdl2\sdl_loadso.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1519922211 c:\users\pierre\google drive (zeldonlast@gmail.com)\i2\exo i2\echec sdl 2.0 newa\include\sdl2\sdl_log.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1519922211 c:\users\pierre\google drive (zeldonlast@gmail.com)\i2\exo i2\echec sdl 2.0 newa\include\sdl2\sdl_messagebox.h
+	"SDL_stdinc.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1519922211 c:\users\pierre\google drive (zeldonlast@gmail.com)\i2\exo i2\echec sdl 2.0 newa\include\sdl2\sdl_power.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1519922211 c:\users\pierre\google drive (zeldonlast@gmail.com)\i2\exo i2\echec sdl 2.0 newa\include\sdl2\sdl_render.h
+	"SDL_stdinc.h"
+	"SDL_rect.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1519922211 c:\users\pierre\google drive (zeldonlast@gmail.com)\i2\exo i2\echec sdl 2.0 newa\include\sdl2\sdl_shape.h
+	"SDL_stdinc.h"
+	"SDL_pixels.h"
+	"SDL_rect.h"
+	"SDL_surface.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1519922211 c:\users\pierre\google drive (zeldonlast@gmail.com)\i2\exo i2\echec sdl 2.0 newa\include\sdl2\sdl_system.h
+	"SDL_stdinc.h"
+	"SDL_keyboard.h"
+	"SDL_render.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1519922211 c:\users\pierre\google drive (zeldonlast@gmail.com)\i2\exo i2\echec sdl 2.0 newa\include\sdl2\sdl_timer.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1519922211 c:\users\pierre\google drive (zeldonlast@gmail.com)\i2\exo i2\echec sdl 2.0 newa\include\sdl2\sdl_version.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1454362933 c:\users\pierre\google drive (zeldonlast@gmail.com)\i2\exo i2\echec sdl 2.0 newa\include\sdl2\sdl_ttf.h
+	"SDL.h"
+	"begin_code.h"
+	"close_code.h"
+
+1540997992 c:\users\pierre\google drive (zeldonlast@gmail.com)\i2\exo i2\echec sdl 2.0 newa\include\sdl2\sdl_mixer.h
+	"SDL_stdinc.h"
+	"SDL_rwops.h"
+	"SDL_audio.h"
+	"SDL_endian.h"
+	"SDL_version.h"
+	"begin_code.h"
+	"close_code.h"
+
+1519932851 c:\users\pierre\google drive (zeldonlast@gmail.com)\i2\exo i2\echec sdl 2.0 newa\include\sdl2\sdl_image.h
+	"SDL.h"
+	"SDL_version.h"
+	"begin_code.h"
+	"close_code.h"
+
+1451807846 c:\users\pierre\google drive (zeldonlast@gmail.com)\i2\exo i2\echec sdl 2.0 newa\include\sdl2\sdl_net.h
+	<stdint.h>
+	"SDL.h"
+	"SDL_endian.h"
+	"SDL_version.h"
+	"begin_code.h"
+	"close_code.h"
+
+1544610515 c:\users\pierre\google drive (zeldonlast@gmail.com)\i2\exo i2\echec sdl 2.0 newa\src\regle.h
+	"header.h"
+
+1544712344 c:\users\pierre\google drive (zeldonlast@gmail.com)\i2\exo i2\echec sdl 2.0 newa\src\deplacement.h
+	"header.h"
+
+1544568352 source:c:\users\pierre\google drive (zeldonlast@gmail.com)\i2\exo i2\echec sdl 2.0 newa\src\disp.c
+	"header.h"
+	"disp.h"
+
+1544564171 c:\users\pierre\google drive (zeldonlast@gmail.com)\i2\exo i2\echec sdl 2.0 newa\src\disp.h
+	"header.h"
+
+1544789763 source:c:\users\pierre\google drive (zeldonlast@gmail.com)\i2\exo i2\echec sdl 2.0 newa\src\game.c
+	"header.h"
+	"ia.h"
+	"deplacement.h"
+	"disp.h"
+	"regle.h"
+
+1544789763 c:\users\pierre\google drive (zeldonlast@gmail.com)\i2\exo i2\echec sdl 2.0 newa\src\ia.h
+
+1544789772 source:c:\users\pierre\google drive (zeldonlast@gmail.com)\i2\exo i2\echec sdl 2.0 newa\src\ia.c
+	"header.h"
+	"ia.h"
+	"regle.h"
+	<stdio.h>
+	<stdlib.h>
+
+1544608493 source:c:\users\pierre\google drive (zeldonlast@gmail.com)\i2\exo i2\echec sdl 2.0 newa\src\init.c
+	"header.h"
+	<stdio.h>
+	<stdlib.h>
+
+1544562776 source:c:\users\pierre\google drive (zeldonlast@gmail.com)\i2\exo i2\echec sdl 2.0 newa\src\liste.c
+	<stdio.h>
+	<stdlib.h>
+	"regle.h"
+	"header.h"
+	"deplacement.h"
+
+1544640756 source:c:\users\pierre\google drive (zeldonlast@gmail.com)\i2\exo i2\echec sdl 2.0 newa\src\load_content.c
+	<SDL2/SDL.h>
+	<SDL2/SDL_image.h>
+	"header.h"
+	<stdio.h>
+	<stdlib.h>
+
+1544610306 source:c:\users\pierre\google drive (zeldonlast@gmail.com)\i2\exo i2\echec sdl 2.0 newa\src\main.c
+	<stdio.h>
+	<stdlib.h>
+	"header.h"
+
+1544610576 source:c:\users\pierre\google drive (zeldonlast@gmail.com)\i2\exo i2\echec sdl 2.0 newa\src\regle.c
+	"header.h"
+	"regle.h"
+	<stdio.h>
+	<stdlib.h>
+
+1544723759 source:c:\users\pierre\google drive (zeldonlast@gmail.com)\i2\exo i2\echec sdl 2.0 newa\src\reseau.c
+
+1544571558 source:c:\users\pierre\google drive (zeldonlast@gmail.com)\i2\exo i2\echec sdl 2.0 newa\src\save.c
+	<stdio.h>
+	<stdlib.h>
+	"header.h"
+
+1544608526 source:c:\users\pierre\google drive (zeldonlast@gmail.com)\i2\exo i2\echec sdl 2.0 newa\src\select.c
+	"header.h"
+	"regle.h"
+	<stdio.h>
+	<stdlib.h>
+
+1544825239 source:e:\google drive\i2\exo i2\echec sdl 2.0 newa\src\deplacement.c
+	"header.h"
+	"regle.h"
+	"deplacement.h"
+
+1544724075 e:\google drive\i2\exo i2\echec sdl 2.0 newa\src\header.h
+	<SDL2/SDL.h>
+	<SDL2/SDL_ttf.h>
+	<SDL2/SDL_mixer.h>
+	<SDL2/SDL_image.h>
+	<math.h>
+	<SDL2/SDL_net.h>
+
+1519922211 e:\google drive\i2\exo i2\echec sdl 2.0 newa\include\sdl2\sdl.h
+	"SDL_main.h"
+	"SDL_stdinc.h"
+	"SDL_assert.h"
+	"SDL_atomic.h"
+	"SDL_audio.h"
+	"SDL_clipboard.h"
+	"SDL_cpuinfo.h"
+	"SDL_endian.h"
+	"SDL_error.h"
+	"SDL_events.h"
+	"SDL_filesystem.h"
+	"SDL_gamecontroller.h"
+	"SDL_haptic.h"
+	"SDL_hints.h"
+	"SDL_joystick.h"
+	"SDL_loadso.h"
+	"SDL_log.h"
+	"SDL_messagebox.h"
+	"SDL_mutex.h"
+	"SDL_power.h"
+	"SDL_render.h"
+	"SDL_rwops.h"
+	"SDL_shape.h"
+	"SDL_system.h"
+	"SDL_thread.h"
+	"SDL_timer.h"
+	"SDL_version.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1519922211 e:\google drive\i2\exo i2\echec sdl 2.0 newa\include\sdl2\sdl_main.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1519922211 e:\google drive\i2\exo i2\echec sdl 2.0 newa\include\sdl2\sdl_stdinc.h
+	"SDL_config.h"
+	<sys/types.h>
+	<stdio.h>
+	<stdlib.h>
+	<stddef.h>
+	<stdarg.h>
+	<stdlib.h>
+	<malloc.h>
+	<stddef.h>
+	<stdarg.h>
+	<memory.h>
+	<string.h>
+	<strings.h>
+	<wchar.h>
+	<inttypes.h>
+	<stdint.h>
+	<ctype.h>
+	<math.h>
+	<float.h>
+	<sal.h>
+	"begin_code.h"
+	<alloca.h>
+	<malloc.h>
+	<malloc.h>
+	<malloc.h>
+	<stdlib.h>
+	"close_code.h"
+
+1519922211 e:\google drive\i2\exo i2\echec sdl 2.0 newa\include\sdl2\sdl_config.h
+	"SDL_platform.h"
+
+1519922211 e:\google drive\i2\exo i2\echec sdl 2.0 newa\include\sdl2\sdl_platform.h
+	"AvailabilityMacros.h"
+	"TargetConditionals.h"
+	<winapifamily.h>
+	"begin_code.h"
+	"close_code.h"
+
+1519922211 e:\google drive\i2\exo i2\echec sdl 2.0 newa\include\sdl2\begin_code.h
+
+1519922211 e:\google drive\i2\exo i2\echec sdl 2.0 newa\include\sdl2\close_code.h
+
+1519922211 e:\google drive\i2\exo i2\echec sdl 2.0 newa\include\sdl2\sdl_assert.h
+	"SDL_config.h"
+	"begin_code.h"
+	<signal.h>
+	"close_code.h"
+
+1519922211 e:\google drive\i2\exo i2\echec sdl 2.0 newa\include\sdl2\sdl_atomic.h
+	"SDL_stdinc.h"
+	"SDL_platform.h"
+	"begin_code.h"
+	<mbarrier.h>
+	"close_code.h"
+
+1519922211 e:\google drive\i2\exo i2\echec sdl 2.0 newa\include\sdl2\sdl_audio.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_endian.h"
+	"SDL_mutex.h"
+	"SDL_thread.h"
+	"SDL_rwops.h"
+	"begin_code.h"
+	"close_code.h"
+
+1519922211 e:\google drive\i2\exo i2\echec sdl 2.0 newa\include\sdl2\sdl_error.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1519922211 e:\google drive\i2\exo i2\echec sdl 2.0 newa\include\sdl2\sdl_endian.h
+	"SDL_stdinc.h"
+	<endian.h>
+	"begin_code.h"
+	"close_code.h"
+
+1519922211 e:\google drive\i2\exo i2\echec sdl 2.0 newa\include\sdl2\sdl_mutex.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1519922211 e:\google drive\i2\exo i2\echec sdl 2.0 newa\include\sdl2\sdl_thread.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_atomic.h"
+	"SDL_mutex.h"
+	"begin_code.h"
+	<process.h>
+	<process.h>
+	<stdlib.h>
+	"close_code.h"
+
+1519922211 e:\google drive\i2\exo i2\echec sdl 2.0 newa\include\sdl2\sdl_rwops.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1519922211 e:\google drive\i2\exo i2\echec sdl 2.0 newa\include\sdl2\sdl_clipboard.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1519922211 e:\google drive\i2\exo i2\echec sdl 2.0 newa\include\sdl2\sdl_cpuinfo.h
+	"SDL_stdinc.h"
+	<intrin.h>
+	<intrin.h>
+	<altivec.h>
+	<mm3dnow.h>
+	<immintrin.h>
+	<mmintrin.h>
+	<xmmintrin.h>
+	<emmintrin.h>
+	<pmmintrin.h>
+	"begin_code.h"
+	"close_code.h"
+
+1519922211 e:\google drive\i2\exo i2\echec sdl 2.0 newa\include\sdl2\sdl_events.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_video.h"
+	"SDL_keyboard.h"
+	"SDL_mouse.h"
+	"SDL_joystick.h"
+	"SDL_gamecontroller.h"
+	"SDL_quit.h"
+	"SDL_gesture.h"
+	"SDL_touch.h"
+	"begin_code.h"
+	"close_code.h"
+
+1519922211 e:\google drive\i2\exo i2\echec sdl 2.0 newa\include\sdl2\sdl_video.h
+	"SDL_stdinc.h"
+	"SDL_pixels.h"
+	"SDL_rect.h"
+	"SDL_surface.h"
+	"begin_code.h"
+	"close_code.h"
+
+1519922211 e:\google drive\i2\exo i2\echec sdl 2.0 newa\include\sdl2\sdl_pixels.h
+	"SDL_stdinc.h"
+	"SDL_endian.h"
+	"begin_code.h"
+	"close_code.h"
+
+1519922211 e:\google drive\i2\exo i2\echec sdl 2.0 newa\include\sdl2\sdl_rect.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_pixels.h"
+	"SDL_rwops.h"
+	"begin_code.h"
+	"close_code.h"
+
+1519922211 e:\google drive\i2\exo i2\echec sdl 2.0 newa\include\sdl2\sdl_surface.h
+	"SDL_stdinc.h"
+	"SDL_pixels.h"
+	"SDL_rect.h"
+	"SDL_blendmode.h"
+	"SDL_rwops.h"
+	"begin_code.h"
+	"close_code.h"
+
+1519922211 e:\google drive\i2\exo i2\echec sdl 2.0 newa\include\sdl2\sdl_blendmode.h
+	"begin_code.h"
+	"close_code.h"
+
+1519922211 e:\google drive\i2\exo i2\echec sdl 2.0 newa\include\sdl2\sdl_keyboard.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_keycode.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1519922211 e:\google drive\i2\exo i2\echec sdl 2.0 newa\include\sdl2\sdl_keycode.h
+	"SDL_stdinc.h"
+	"SDL_scancode.h"
+
+1519922211 e:\google drive\i2\exo i2\echec sdl 2.0 newa\include\sdl2\sdl_scancode.h
+	"SDL_stdinc.h"
+
+1519922211 e:\google drive\i2\exo i2\echec sdl 2.0 newa\include\sdl2\sdl_mouse.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1519922211 e:\google drive\i2\exo i2\echec sdl 2.0 newa\include\sdl2\sdl_joystick.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1519922211 e:\google drive\i2\exo i2\echec sdl 2.0 newa\include\sdl2\sdl_gamecontroller.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_rwops.h"
+	"SDL_joystick.h"
+	"begin_code.h"
+	"close_code.h"
+
+1519922211 e:\google drive\i2\exo i2\echec sdl 2.0 newa\include\sdl2\sdl_quit.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+
+1519922211 e:\google drive\i2\exo i2\echec sdl 2.0 newa\include\sdl2\sdl_gesture.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_video.h"
+	"SDL_touch.h"
+	"begin_code.h"
+	"close_code.h"
+
+1519922211 e:\google drive\i2\exo i2\echec sdl 2.0 newa\include\sdl2\sdl_touch.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1519922211 e:\google drive\i2\exo i2\echec sdl 2.0 newa\include\sdl2\sdl_filesystem.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1519922211 e:\google drive\i2\exo i2\echec sdl 2.0 newa\include\sdl2\sdl_haptic.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_joystick.h"
+	"begin_code.h"
+	"close_code.h"
+
+1519922211 e:\google drive\i2\exo i2\echec sdl 2.0 newa\include\sdl2\sdl_hints.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1519922211 e:\google drive\i2\exo i2\echec sdl 2.0 newa\include\sdl2\sdl_loadso.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1519922211 e:\google drive\i2\exo i2\echec sdl 2.0 newa\include\sdl2\sdl_log.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1519922211 e:\google drive\i2\exo i2\echec sdl 2.0 newa\include\sdl2\sdl_messagebox.h
+	"SDL_stdinc.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1519922211 e:\google drive\i2\exo i2\echec sdl 2.0 newa\include\sdl2\sdl_power.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1519922211 e:\google drive\i2\exo i2\echec sdl 2.0 newa\include\sdl2\sdl_render.h
+	"SDL_stdinc.h"
+	"SDL_rect.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1519922211 e:\google drive\i2\exo i2\echec sdl 2.0 newa\include\sdl2\sdl_shape.h
+	"SDL_stdinc.h"
+	"SDL_pixels.h"
+	"SDL_rect.h"
+	"SDL_surface.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1519922211 e:\google drive\i2\exo i2\echec sdl 2.0 newa\include\sdl2\sdl_system.h
+	"SDL_stdinc.h"
+	"SDL_keyboard.h"
+	"SDL_render.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1519922211 e:\google drive\i2\exo i2\echec sdl 2.0 newa\include\sdl2\sdl_timer.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1519922211 e:\google drive\i2\exo i2\echec sdl 2.0 newa\include\sdl2\sdl_version.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1454362933 e:\google drive\i2\exo i2\echec sdl 2.0 newa\include\sdl2\sdl_ttf.h
+	"SDL.h"
+	"begin_code.h"
+	"close_code.h"
+
+1540997992 e:\google drive\i2\exo i2\echec sdl 2.0 newa\include\sdl2\sdl_mixer.h
+	"SDL_stdinc.h"
+	"SDL_rwops.h"
+	"SDL_audio.h"
+	"SDL_endian.h"
+	"SDL_version.h"
+	"begin_code.h"
+	"close_code.h"
+
+1519932851 e:\google drive\i2\exo i2\echec sdl 2.0 newa\include\sdl2\sdl_image.h
+	"SDL.h"
+	"SDL_version.h"
+	"begin_code.h"
+	"close_code.h"
+
+1451807846 e:\google drive\i2\exo i2\echec sdl 2.0 newa\include\sdl2\sdl_net.h
+	<stdint.h>
+	"SDL.h"
+	"SDL_endian.h"
+	"SDL_version.h"
+	"begin_code.h"
+	"close_code.h"
+
+1544822138 e:\google drive\i2\exo i2\echec sdl 2.0 newa\src\regle.h
+	"header.h"
+
+1544823405 e:\google drive\i2\exo i2\echec sdl 2.0 newa\src\deplacement.h
+	"header.h"
+
+1544568352 source:e:\google drive\i2\exo i2\echec sdl 2.0 newa\src\disp.c
+	"header.h"
+	"disp.h"
+
+1544564171 e:\google drive\i2\exo i2\echec sdl 2.0 newa\src\disp.h
+	"header.h"
+
+1544789763 source:e:\google drive\i2\exo i2\echec sdl 2.0 newa\src\game.c
+	"header.h"
+	"ia.h"
+	"deplacement.h"
+	"disp.h"
+	"regle.h"
+
+1544789763 e:\google drive\i2\exo i2\echec sdl 2.0 newa\src\ia.h
+
+1544789851 source:e:\google drive\i2\exo i2\echec sdl 2.0 newa\src\ia.c
+	"header.h"
+	"ia.h"
+	"regle.h"
+	<stdio.h>
+	<stdlib.h>
+
+1544571463 source:e:\google drive\i2\exo i2\echec sdl 2.0 newa\src\init.c
+	"header.h"
+	<stdio.h>
+	<stdlib.h>
+
+1544562776 source:e:\google drive\i2\exo i2\echec sdl 2.0 newa\src\liste.c
+	<stdio.h>
+	<stdlib.h>
+	"regle.h"
+	"header.h"
+	"deplacement.h"
+
+1544640756 source:e:\google drive\i2\exo i2\echec sdl 2.0 newa\src\load_content.c
+	<SDL2/SDL.h>
+	<SDL2/SDL_image.h>
+	"header.h"
+	<stdio.h>
+	<stdlib.h>
+
+1544610306 source:e:\google drive\i2\exo i2\echec sdl 2.0 newa\src\main.c
+	<stdio.h>
+	<stdlib.h>
+	"header.h"
+
+1544610576 source:e:\google drive\i2\exo i2\echec sdl 2.0 newa\src\regle.c
+	"header.h"
+	"regle.h"
+	<stdio.h>
+	<stdlib.h>
+
+1544723759 source:e:\google drive\i2\exo i2\echec sdl 2.0 newa\src\reseau.c
+
+1544571558 source:e:\google drive\i2\exo i2\echec sdl 2.0 newa\src\save.c
+	<stdio.h>
+	<stdlib.h>
+	"header.h"
+
+1544608526 source:e:\google drive\i2\exo i2\echec sdl 2.0 newa\src\select.c
+	"header.h"
+	"regle.h"
+	<stdio.h>
+	<stdlib.h>
+

@@ -1,0 +1,230 @@
+#include "header.h"
+#include "ia.h"
+#include "deplacement.h"
+#include "disp.h"
+#include "regle.h"
+
+#define MOUSE_X event.motion.x
+#define MOUSE_Y event.motion.y
+
+
+void game_master(Options options,Liste li_player,Liste li_adversaire, int mouse_x, int mouse_y, int *selected_x, int *selected_y)
+{
+    if( options->end_game <= 0 )
+    {
+        if(li_player)
+        {
+            Coup *temp = li_player->premier;
+
+            while(temp != NULL)
+            {
+                if(mouse_x > plate_bound + temp->pos_x*92/screen_ratio && mouse_x <plate_bound + temp->pos_x*92/screen_ratio+92/screen_ratio && mouse_y > screen_h/2 - plate_size/2 + 7/screen_ratio + temp->pos_y*92/screen_ratio && mouse_y < screen_h/2 - plate_size/2 + 7/screen_ratio + temp->pos_y*92/screen_ratio+92/screen_ratio)
+                    move_piece(options,*selected_x,*selected_y,temp->pos_x,temp->pos_y,temp->roque);
+
+                temp = temp->next;
+            }
+        }
+
+
+        li_player     = clear_liste(li_player);
+        li_adversaire = clear_liste(li_adversaire);
+
+        select_piece(options,mouse_x,mouse_y,selected_x,selected_y);
+
+        li_player = coup_possible(li_player,*selected_x,*selected_y,0);
+
+        if(li_player->premier)
+            li_adversaire = tout_coup_possible(li_adversaire,options->tour_j*-1,1);/// 1 SIGNIFIE COUP SIMULÉ C-A-D CALCUL LES COUPS ÉGALEMENT SUR SES PROPRES PIECES
+
+        disp_game(options,li_player,li_adversaire,*selected_x,*selected_y,mouse_x,mouse_y);
+    }
+}
+
+void game(Options options)
+{
+    ///Initialisation du bg et chargement des textures
+
+    setWindowColor(bg_color);
+
+    int selected_y = 8, selected_x = 8;
+
+    int run_game = 1,i;
+    Liste li_player     = init_Liste();
+    Liste li_adversaire = init_Liste();
+
+    disp_game(options,li_player,li_adversaire,selected_x,selected_y,0,0);
+    while(run_game)
+    {
+        if ( (options->ordi && options->tour_j == -1) || options->ordi == 0)
+        {
+            SDL_Event event;
+            //SDL_WaitEvent(&event);
+            SDL_PollEvent(&event);
+            switch(event.type)
+            {
+                case SDL_MOUSEBUTTONDOWN:
+
+                    options->clicked = 1;
+                    if(options->drag)
+                    {
+                        options->selected = 1;
+                        game_master(options,li_player,li_adversaire,MOUSE_X,MOUSE_Y,&selected_x, &selected_y);
+                    }
+
+                    break;
+                case SDL_MOUSEBUTTONUP:
+
+                    options->clicked = 0;
+                    options->drag = 0;
+
+                    if(mouse_on(MOUSE_X,MOUSE_Y,textRect[6])&& !options->wait)
+                    {
+                        if(options->astuce)
+                            options->astuce = 0;
+                        else
+                            options->astuce = 1;
+
+                        options->wait = 1;
+                    }
+
+                    game_master(options,li_player,li_adversaire,MOUSE_X,MOUSE_Y,&selected_x, &selected_y);
+
+                    regle(options,0);
+
+                    if( options->end_game > 0  )
+                    {
+                        for( i = 10 ;i < 12 ; i++ )
+                        {
+
+                            if ( mouse_on( MOUSE_X ,MOUSE_Y , textRect[i] ) && i == 11 )
+                            {
+                                run_game = 0;
+                                main_menu(options);
+                                break;
+                            }
+                            else if( mouse_on( MOUSE_X ,MOUSE_Y , textRect[i] ) && i == 10)
+                            {
+                                game_reset(options);
+                                game(options);
+                            }
+
+                        }
+                    }
+
+                    break;
+                case SDL_KEYDOWN:
+                    switch(event.key.keysym.scancode)
+                    {
+                        case SDL_SCANCODE_ESCAPE:
+                            run_game = 0;
+                            SDL_Delay(150);
+                            break;
+                        case SDL_SCANCODE_KP_0 :
+                            break;
+                        default :
+                            break;
+                    }
+                    break;
+            }
+            if(event.type == SDL_WINDOWEVENT)
+            {
+                switch (event.window.event)
+                {
+                    case SDL_WINDOWEVENT_RESIZED:
+                        screen_ratio = get_screen_info(&screen_w,&screen_h);
+                        reload_game_content();
+                        break;
+                    case SDL_WINDOWEVENT_CLOSE:
+                        SDL_Quit();
+                        break;
+                }
+            }
+        }
+        disp_game(options,li_player,li_adversaire,selected_x,selected_y,MOUSE_X,MOUSE_Y);
+    }
+}
+
+void main_menu(Options options)
+{
+    int running = 1;
+    setWindowColor(bg_color);
+    while(running)
+    {
+
+        SDL_Event event;
+        SDL_PollEvent(&event);
+        disp_menu(MOUSE_X,MOUSE_Y);
+        switch(event.type)
+        {
+            case SDL_MOUSEBUTTONDOWN:
+
+                break;
+
+            case SDL_MOUSEBUTTONUP:
+                if(event.window.event == SDL_WINDOWEVENT_CLOSE)
+                    running = 0;
+
+                    if(mouse_on(MOUSE_X,MOUSE_Y,textRect[0]))
+                    {
+                        options->ordi = 0;
+                        game_reset(options);
+                        game(options);
+                    }
+                    if(mouse_on(MOUSE_X,MOUSE_Y,textRect[1]))
+                    {
+                        options->ordi = 1;
+                        game_reset(options);
+                        game(options);
+                        ///IA
+                    }
+                    if(mouse_on(MOUSE_X,MOUSE_Y,textRect[2]))
+                    {
+                        load(options);
+                        game(options);
+                    }
+                    if(mouse_on(MOUSE_X,MOUSE_Y,textRect[4]))
+                    {
+                        running = 0;
+                        save(options);
+                    }
+                    if(mouse_on(MOUSE_X,MOUSE_Y,textRect[5]))
+                    {
+                        running = 0;
+                    }
+
+
+                break;
+            case SDL_KEYDOWN:
+                switch(event.key.keysym.scancode)
+                {
+                    case SDL_SCANCODE_ESCAPE:
+                        running = 0;
+                        save(options);
+                        break;
+                    case SDL_SCANCODE_KP_0 :
+                        game(options);
+                        break;
+                    case SDL_SCANCODE_KP_9 :
+                        load(options);
+                        game(options);
+                        break;
+                    default :
+                        break;
+                }
+                break;
+        }
+        if(event.type == SDL_WINDOWEVENT)
+        {
+            switch (event.window.event) {
+                case SDL_WINDOWEVENT_RESIZED:
+                    screen_ratio = get_screen_info(&screen_w,&screen_h);
+                    reload_game_content();
+                    break;
+                case SDL_WINDOWEVENT_CLOSE:
+                    SDL_Quit();
+                    break;
+            }
+
+        }
+    }
+}
